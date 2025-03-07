@@ -1,3 +1,6 @@
 from django.shortcuts import render
+from django.urls import path
 
-# Create your views here.
+def main_page(request):
+    return render(request, 'main_page.html')
+
