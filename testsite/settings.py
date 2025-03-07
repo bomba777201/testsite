@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-*u=9#&*+3*6(x*9c#8xh^%yw#h@@a+*k=kt3n3v2zh^4$klk1h
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['allgames24.ru', 'www.allgames24.ru', '237.84.2.178', '127.0.0.1']
 
 
 # Application definition
@@ -113,7 +113,6 @@ USE_I18N = True
 
 USE_TZ = True
 
-ALLOWED_HOSTS = ['allgames24.ru', 'www.allgames24.ru', '237.84.2.178', '127.0.0.1']
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
